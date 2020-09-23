@@ -1,0 +1,26 @@
+tiles:
+-
+  name: "Documentation"
+  url: "https://github.com/nushkovg/k1s-platform"
+  img: "logos/github.svg"
+  tags: ["docs"]
+-
+  name: "Traefik"
+  url: "https://traefik.k1s.example"
+  img: "logos/traefik.svg"
+  tags: ["ingress"]
+-
+  name: "Grafana"
+  url: "https://grafana.k1s.example"
+  img: "logos/grafana.svg"
+  tags: ["monitoring"]
+-
+  name: "Kubernetes"
+  url: "https://kube.k1s.example"
+  img: "logos/kubernetes.svg"
+  tags: ["monitoring"]
+-
+  name: "Prometheus"
+  url: "https://prometheus.k1s.example"
+  img: "logos/prometheus.svg"
+  tags: ["monitoring"]

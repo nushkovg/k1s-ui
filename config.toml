@@ -1,0 +1,31 @@
+baseURL = "https://k1s.example/"
+languageCode = "en-us"
+title = "K1S Dashboard"
+theme = "k1s"
+
+publishDir = "docs"
+
+[ params ]
+Favicon = "favicon.ico"
+OpenLinksInNewWindow = true
+BackgroundStyle = "#1C1C1C;"
+
+[[ params.nav ]]
+name = "Ingress Controllers"
+tag = "ingress"
+icon = "connectdevelop"
+
+[[ params.nav ]]
+name = "Monitoring"
+tag = "monitoring"
+icon = "desktop"
+
+[[ params.nav ]]
+name = "k1s Applications"
+tag = "k1s"
+icon = "microchip"
+
+[[ params.nav ]]
+name = "Documentation"
+tag = "docs"
+icon = "book"

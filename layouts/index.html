@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>{{ .Title }}</title>{{ if .Site.Params.Favicon }}
+    <link rel="shortcut icon" type="image/x-icon" href="{{ .Site.Params.Favicon }}">{{ end }}
+    <link rel="stylesheet" href="css/slate.css">
+</head>
+
+<body{{ if .Site.Params.BackgroundStyle }} style='background: {{ .Site.Params.BackgroundStyle | safeCSS }};'{{ end }}
+{{- if .Site.Params.BackgroundImages }} data-backgrounds='{{ range .Site.Params.BackgroundImages }}{{ . }},{{ end }}'{{- end }}>
+
+{{ partial "nav.html" . }}
+
+<div style="width: 50%; margin:0 auto; text-align:center; padding-top:3rem">
+    <h1 style="color:#D3D3D4;">K1S Dashboard</h1>
+</div>
+
+<div class="container">{{ partial "tile_slate.html" . }}
+</div>
+
+</body>
+<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+<script src="js/slate.js"></script>
+</html>
