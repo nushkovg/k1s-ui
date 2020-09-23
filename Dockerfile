@@ -1,8 +1,8 @@
 FROM bitnami/minideb:stretch
 
 ENV HUGO_VERSION 0.75.1
-ENV HUGO_BINARY hugo_${HUGO_VERSION}_Linux-64bit.deb
-ENV HUGO_SHA256 66b16128288136ddd659767335b872648711dfb7a331ea98a42292adb4d5dbb0
+ENV HUGO_BINARY hugo_${HUGO_VERSION}_Linux-ARM.deb
+ENV HUGO_SHA256 ef82fd94bb8d407689817a732ef185b6e7bdd7b6f4a1c15523941ec6a61a379f
 
 # Download
 ADD https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} /tmp/hugo.deb
