@@ -6,21 +6,21 @@ tiles:
   tags: ["docs"]
 -
   name: "Traefik"
-  url: "https://traefik.k1s.example"
+  url: "https://traefik.k1s.top"
   img: "logos/traefik.svg"
   tags: ["ingress"]
 -
   name: "Grafana"
-  url: "https://grafana.k1s.example"
+  url: "https://grafana.k1s.top"
   img: "logos/grafana.svg"
   tags: ["monitoring"]
 -
   name: "Kubernetes"
-  url: "https://kube.k1s.example"
+  url: "https://kube.k1s.top"
   img: "logos/kubernetes.svg"
   tags: ["monitoring"]
 -
   name: "Prometheus"
-  url: "https://prometheus.k1s.example"
+  url: "https://prometheus.k1s.top"
   img: "logos/prometheus.svg"
   tags: ["monitoring"]

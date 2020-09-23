@@ -1,9 +1,7 @@
-baseURL = "https://k1s.example/"
+baseURL = "https://k1s.top/"
 languageCode = "en-us"
 title = "K1S Dashboard"
 theme = "k1s"
-
-publishDir = "docs"
 
 [ params ]
 Favicon = "favicon.ico"
