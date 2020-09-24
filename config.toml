@@ -1,4 +1,4 @@
-baseURL = "https://k1s.top/"
+baseURL = "https://example.com/"
 languageCode = "en-us"
 title = "K1S Dashboard"
 theme = "k1s"
