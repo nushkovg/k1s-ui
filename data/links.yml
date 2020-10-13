@@ -1,8 +1,8 @@
 tiles:
 -
   name: "Documentation"
-  url: "https://github.com/nushkovg/k1s"
-  img: "logos/github.svg"
+  url: "https://www.k1s.dev/"
+  img: "logos/k1s.svg"
   tags: ["docs"]
 -
   name: "Traefik"
